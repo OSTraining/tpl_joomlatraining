@@ -146,6 +146,7 @@ ul.steps .number:after{
 .classdetail .ticket label {
 	display: inline;
 	margin-left: 3px;
+    font-weight: 700;
 }
 .classdetail .ticket .footer > div {
 	text-align: center !important;
