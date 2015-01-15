@@ -152,6 +152,18 @@ ul.steps .number:after{
 	text-align: center !important;
 }
 
+/* SP Quick Contact */
+#sp-quickcontact-form textarea#message,
+#sp-quickcontact-form input[type="text"],
+#sp-quickcontact-form input[type="email"] {
+    width: 145px;
+    font-family: "Open Sans";
+    color: #333;
+}
+#sp-quickcontact-form p{
+    line-height: 18px;
+}
+
 @media (max-width: 767px) {
 	/* home grid */
 	.row-fluid.ost-home-grid [class*="span"] {
