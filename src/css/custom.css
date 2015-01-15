@@ -153,6 +153,9 @@ ul.steps .number:after{
 }
 
 /* SP Quick Contact */
+#sp-quickcontact-form textarea#message {
+    height: 140px;
+}
 #sp-quickcontact-form textarea#message,
 #sp-quickcontact-form input[type="text"],
 #sp-quickcontact-form input[type="email"] {
@@ -164,16 +167,32 @@ ul.steps .number:after{
     line-height: 18px;
 }
 
+@media (max-width: 1024px) {
+    /* SP Quick Contact */
+    #sp-quickcontact-form textarea#message,
+    #sp-quickcontact-form input[type="text"],
+    #sp-quickcontact-form input[type="email"] {
+        width: 110px;
+    }
+}
+
 @media (max-width: 767px) {
-	/* home grid */
-	.row-fluid.ost-home-grid [class*="span"] {
-		width: 100%;
-		margin-left: 0;
-		margin-bottom: 40px;
-	}
-	
-	/* header */
-	#header .inner-padding {
-    	padding-bottom: 40px;
-	}
+    /* home grid */
+    .row-fluid.ost-home-grid [class*="span"] {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    /* header */
+    #header .inner-padding {
+        padding-bottom: 40px;
+    }
+
+    /* SP Quick Contact */
+    #sp-quickcontact-form textarea#message,
+    #sp-quickcontact-form input[type="text"],
+    #sp-quickcontact-form input[type="email"] {
+        width: 90%;
+    }
 }
