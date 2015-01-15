@@ -15,10 +15,10 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 
 if( strstr($moduleclass_sfx,'explanation-text-1') ){
-	$custom_message_ = '<p>Contact us if you have any questions about on-site training</p>';
+	$custom_message_ = '<p>Please contact us if you have any questions about training classes</p>';
 }
 elseif( strstr($moduleclass_sfx,'explanation-text-2') ){
-	$custom_message_ = '<p>Contact us if you have any questions about live training classes</p>';
+	$custom_message_ = '<p>Other message here</p>';
 }
 // No message
 else{
