@@ -124,7 +124,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
 	<jdoc:include type="head" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <style>
-        a, 
+        a,
         i{
             color:<?php echo $color_scheme; ?>;
         }
@@ -134,9 +134,9 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
         .navigation .nav-child:hover > a,
         .nav > li a,
 		#mainmenu > li > ul > li > a:hover,
-		.dropdown-menu > li > a:hover, 
-		.dropdown-menu > li > a:focus, 
-		.dropdown-submenu:hover > a, 
+		.dropdown-menu > li > a:hover,
+		.dropdown-menu > li > a:focus,
+		.dropdown-submenu:hover > a,
 		.dropdown-submenu:focus > a,
 		#header,
 		.navigation{
@@ -229,7 +229,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
             </div>
 			</div>
 		</div>
-		<?php if ($this->countModules('bottom-a or bottom-b or bottom-c')) : ?>	
+		<?php if ($this->countModules('bottom-a or bottom-b or bottom-c')) : ?>
 		<div class="container m-bottom">
             <!-- Start bottom -->
             <div class="inner-padding">
