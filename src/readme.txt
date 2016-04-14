@@ -1,1 +1,1 @@
-Congratulations on your purchase of America, one of the fastest templates ever created for Joomla! We hope this template will help make your website project a success. If you'd like to use this template on other websites too, additional licenses may be purchased at www.alledia.com/store.
+Joomla Template for http://www.joomlatraining.com
