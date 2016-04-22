@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="template" client="site">
     <name>joomlatraining</name>
-    <creationDate>December 2014</creationDate>
+    <creationDate>April 2016</creationDate>
     <author>OSTraining</author>
-    <copyright>Copyright (C) 2014 OSTraining.com</copyright>
+    <copyright>Copyright (C) 2016 OSTraining.com</copyright>
     <license>GPL v3</license>
     <authorEmail>info@ostraining.com</authorEmail>
     <authorUrl>http://www.ostraining.com</authorUrl>
@@ -13,6 +13,7 @@
     <files>
         <filename>index.php</filename>
         <filename>favicon.ico</filename>
+        <filename>functions.php</filename>
         <filename>license.txt</filename>
         <filename>readme.txt</filename>
         <filename>template_thumbnail.png</filename>
